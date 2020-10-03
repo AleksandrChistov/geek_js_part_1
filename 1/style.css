@@ -1,0 +1,63 @@
+.chess-board {
+    max-width: 696px;
+    margin: 0 auto;
+    border: 14px double #993034;
+}
+
+.board {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: serif;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+tbody {
+    outline: 4px solid #C2673E;
+}
+
+tr {
+    display: flex;
+}
+
+td {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+tbody td {
+    line-height: 75px;
+    font-size: 48px;
+}
+
+.letter td {
+    width: 75px;
+    height: 45px;
+}
+
+thead .letter td {
+    transform: rotate(180deg);
+}
+
+.number-before {
+    position: absolute;
+    line-height: 75px;
+    left: -60px;
+    font-size: 28px;
+}
+
+.number-after {
+    position: absolute;
+    line-height: 75px;
+    right: -60px;
+    transform: rotate(180deg);
+    font-size: 28px;
+}
