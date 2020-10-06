@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript part 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <section class="cart">
+        <img src="img/cart.png" alt="Shopping cart">
+        <div class="info">
+            <div class="purchases"></div>
+            <p>Total: <span class="items">0</span> products worth $<span class="amount">0</span>.</p>
+        </div>
+        <button class="clear">Clear Cart</button>
+    </section>
+
+    <section class="products">
+        <template id="productTemplate">
+            <div class="card">
+                <h3>Sweatshirt (navy)</h3>
+                <img src="img/goods_1.jpg" alt="Goods">
+                <p class="price">$5000</p>
+                <button class="buy">Buy</button>
+            </div>
+        </template>
+    </section>
+
+</body>
+</html>
