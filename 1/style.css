@@ -1,0 +1,30 @@
+.photo-gallery {
+    max-width: 750px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.photo-gallery img {
+    max-width: calc(33.3% - 2rem);
+    padding: 0.5rem;
+    border: 1px dashed #8f8f29;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.photo-gallery img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 1px #ffd32b;
+}
+
+.main-photo {
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main-photo img {
+    max-width: 100%;
+}
